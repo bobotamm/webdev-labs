@@ -4,8 +4,34 @@ body * {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px #CCC;
+    width: 45vh;
+    height: 60vh;
+
 }
 
 /*
 Add some style blocks below this line to style the card.
 */
+
+img {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+    margin: 20px;
+}
+
+p{
+    width: 43vh;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+button{
+    margin-left: 20px;
+}
+
+
