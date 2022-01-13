@@ -31,7 +31,7 @@ my_quote = random.choice(quotes)
 ##############
 @app.route('/')
 def exercise1():
-    return f'Hi {current_user.first_name}'
+    return f'Hello {current_user.first_name} !'
 
 
 ##############

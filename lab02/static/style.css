@@ -25,10 +25,24 @@ nav ul {
 
 main {
     margin: 3vh;
+    border: solid 1px black;
+    width: 40%;
 }
 
-main h2{
-    background: pink;
+main h1{
+    text-align: center;
+}
+
+main img{
+    width: 100%;
+}
+
+main h3{
+    padding-bottom: 20px;
+}
+
+main h3, p{
+    padding-left: 20px;
 }
 
 
