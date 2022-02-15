@@ -6,6 +6,8 @@
        based on the button that was clicked.
 */
 
+// set classname
+
 const defaultTheme = ev => {
     document.querySelector("body").className = 'default'
 }

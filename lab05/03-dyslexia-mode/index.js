@@ -26,10 +26,10 @@ const toggleEventHandler = ev => {
     // toggle button's dyslexia mode
     ev.currentTarget.setAttribute('aria-pressed', String(!pressed));
 
-    // toggle thee .dyslexia-mode class
+    // toggle the .dyslexia-mode class
     document.body.classList.toggle("dyslexia-mode")
 
-    // persist th setting to local storage
+    // persist the setting to local storage
     window.localStorage.setItem('dyslexia', String(!pressed));
 }
 

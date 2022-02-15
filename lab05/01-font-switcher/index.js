@@ -1,5 +1,7 @@
 let curr_font = 1.4;
 
+// set font size
+
 const makeBigger = () => {
 //   alert('make bigger!');
    curr_font += 0.2;
